@@ -5,11 +5,20 @@ const pages = [
     {
         output: './index.html',
         content: {
-            title: 'Analytics Dashboard',
-            description: 'This is an example dashboard created using build-in elements and components.',
+            title: 'Stocks Overview',
+            description: 'hackathon.',
             heading_icon: 'pe-7s-car icon-gradient bg-mean-fruit'
         },
         template: './src/DemoPages/dashboards/dashboard-example-1.hbs'
+    },
+    {
+        output: './index2.html',
+        content: {
+            title: 'Wishlist',
+            description: 'hackathon',
+            heading_icon: 'pe-7s-car icon-gradient bg-mean-fruit'
+        },
+        template: './src/DemoPages/dashboards/dashboard-example-2.hbs'
     },
     // UI Elements
     {
@@ -251,7 +260,7 @@ const pages = [
     {
         output: './charts-chartjs.html',
         content: {
-            title: 'ChartJS',
+            title: 'History',
             description: 'Huge selection of charts created with the React ChartJS Plugin',
             heading_icon: 'pe-7s-bandaid icon-gradient bg-amy-crisp'
         },

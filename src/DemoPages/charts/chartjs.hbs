@@ -2,90 +2,26 @@
     {{> AppSidebar/sidebar charts-chartjs=this }}
     <div class="app-main__outer">
         <div class="app-main__inner">
-            {{> AppMain/page-title }}
-            <ul class="body-tabs body-tabs-layout tabs-animated body-tabs-animated nav">
-                <li class="nav-item">
-                    <a role="tab" class="nav-link active" id="tab-0" data-toggle="tab" href="#tab-content-0">
-                        <span>Circular Charts</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a role="tab" class="nav-link" id="tab-1" data-toggle="tab" href="#tab-content-1">
-                        <span>Lines & Bars Charts</span>
-                    </a>
-                </li>
-            </ul>
+            
             <div class="tab-content">
                 <div class="tab-pane tabs-animation fade show active" id="tab-content-0" role="tabpanel">
-                    <div class="row">
-                        <div class="col-md-6">
+                   
+                            <div class="main-card mb-3 card">
+           <div class="card-body">
+                                    <h5 class="card-title">Daily Expenditure</h5><table class="table"><thead class="thead-dark"><tr><th scope="col">Product Bought</th><th scope="col">Bought At</th><th scope="col">Spare Change Acquired</th></tr></thead><tbody><tr><td>Beef Noodles</td><td>$ 8.90</td><td>$ 0.10 </td></tr><tr><td>Starbucks Americano (Venti)</td><td>$ 6.20</td><td>$ 0.80 </td></tr><tr><td>Milk Tea</td><td>$ 3.30</td><td>$ 0.70 </td></tr></tbody></table>
+                </div>                  </div>
+                            
                             <div class="main-card mb-3 card">
                                 <div class="card-body">
-                                    <h5 class="card-title">Pie Chart</h5>
-                                    <canvas id="chart-area"></canvas>
+                                    <h5 class="card-title">Monthly Expenditure</h5><table class="table"><thead class="thead-dark"><tr><th scope="col">Month</th><th scope="col">Total Amount Spent</th><th scope="col">Total Spare Change</th></tr></thead><tbody><tr><td>January</td><td>$ 2560.48</td><td> $10.73 </td></tr><tr><td>February</td><td>$ 3376.85</td><td>$12.87 </td></tr><tr><td>March</td><td>$ 5447.91</td><td>$ 20.57 </td></tr></tbody></table>
+                </div>
                                 </div>
-                            </div>
-                            <div class="main-card mb-3 card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Radar Chart</h5>
-                                    <canvas id="radar-chart"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="main-card mb-3 card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Doughnut</h5>
-                                    <canvas id="doughnut-chart"></canvas>
-                                </div>
-                            </div>
-                            <div class="main-card mb-3 card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Polar Chart</h5>
-                                    <canvas id="polar-chart"></canvas>
-                                </div>
-                            </div>
-                        </div>
+                           
+                       </div> 
+                       
                     </div>
 
                 </div>
-                <div class="tab-pane tabs-animation fade" id="tab-content-1" role="tabpanel">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="main-card mb-3 card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Vertical Bars</h5>
-                                    <canvas id="canvas"></canvas>
-                                </div>
-                            </div>
-                            <div class="main-card mb-3 card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Horizontal Bars</h5>
-                                    <canvas id="chart-horiz-bar"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="main-card mb-3 card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Line Chart</h5>
-                                    <div style="height: 400px">
-                                        <canvas id="line-chart"></canvas>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="main-card mb-3 card">
-                                <div class="card-body">
-                                    <h5 class="card-title">Stacked Bars</h5>
-                                    <canvas id="stacked-bars-chart"></canvas>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            
             </div>
-
-        </div>
-        {{> AppFooter/footer }}
-    </div>
 {{/ base }}

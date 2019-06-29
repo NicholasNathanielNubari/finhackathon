@@ -10,10 +10,6 @@
     "build": "webpack --config webpack-prod.config.js --colors --optimize-minimize",
     "watch": "webpack-dev-server --config webpack-dev.config.js --watch --colors -d"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DashboardPack/architectui-html-theme-free"
-  },
   "eslintConfig": {
     "env": {
       "browser": true,
