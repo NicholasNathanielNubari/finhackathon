@@ -1,5 +1,5 @@
 module.exports = require('./webpack.config-helper')({
-    isProduction: true,
+    isProduction: false,
     devtool: 'cheap-eval-source-map',
     port: 8081
 });
