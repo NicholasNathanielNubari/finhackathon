@@ -1,4 +1,4 @@
-'use s';
+'use strict';
 
 const Path = require('path');
 const Webpack = require('webpack');
